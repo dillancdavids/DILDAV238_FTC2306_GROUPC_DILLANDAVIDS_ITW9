@@ -1,13 +1,29 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+img { border-radius: 200px;
+height: 200px;
+width: 200px;
+}
+
+
+
+h1 {background-color: #3333335b;
+padding: 20px;
+margin: 20px;
+border-radius: 70px;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    background-color: #ccc7c7;
   }
-  header {
+header {
     text-align: center;
     padding: 50px;
     background-color: #333;
-    color: #fff;
+    color: #080808;
+    border-radius: 70px;
   }
 
 
@@ -17,6 +33,11 @@ body {
     text-align: center;
   }
   
+  aside{margin-left: 35%;
+    margin-right: 35%;
+  background-color: #3333335d;
+padding: 30px;
+border-radius: 70px;}
 
   
  

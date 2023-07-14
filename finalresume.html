@@ -15,39 +15,51 @@
     <link rel="stylesheet" href="./styling/stylesheet.css">
     <style>
       .hero-banner {
-          background-image: url('');
+          background-image: url('https://images.unsplash.com/photo-1511649475669-e288648b2339?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80');
           background-size: cover;
           background-position: center;
+          border-radius: 70px;
           
           height: 450px;
-      }
-
-      html,
-      body,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-family: "Roboto", sans-serif;
       }
     </style>
   </head>
 
   <body>
+
+    <header>
+      <div class="hero-banner">
+        <br>
+        <h1>Resume</h1>
+          <p><b>Dillan Chad Davids</b></p>
+          <p>Aspiring Developer</p>
+          <picture>
+            <source media="(min-width: 1024px)" srcset="Images\me.jpg">
+            <source media="(min-width: 768px)" srcset='Images\me.jpg'>
+            <img src="Images\me.jpg" alt="profile">
+            
+        </picture> 
+          
+      </div> 
+  
+       </header>
    
-                <img src="Images\me.jpg" style="width:25%" alt="profile">
-                <div class="display-bottomleft container text-black">
-                  <h2>Dillan Davids</h2>
-              
-                <p>Aspiring Programmer</p>
-                <p>Cape Town, South Africa</p>
-                <p>dillancdavids@gmail.com</p>
-                <p>0747082645</p>
+         <br>       
+                
+      <aside>
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#language">Languages</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      </aside>
+                
                 <hr>
       
-                <p><b>Skills</b></p>
+                <h2 id="skills">Skills</h2>
                 <p>HTML</p>
                 
                 <p>CSS</p>
@@ -55,20 +67,21 @@
                 <p>MS Office</p>
                 
                 <p>JavaScript</p>
+                <hr>
                 
       
-                <p><b>Languages</b></p>
+                <h2 id="language">Languages</h2>
                 <p>English</p>
                 
                 <p>Afrikaans</p>
                 
-                
+                <hr>
                 <br>
               
       
           
          
-              <h2>Work Experience</h2>
+              <h2 id="experience">Work Experience</h2>
               
                 <h5><b>NPO Sector</b></h5>
                 <h6>Jan 2015 - </h6>
@@ -86,12 +99,16 @@
              
       
             
-              <h2>Education</h2>
+              <h2 id="education">Education</h2>
                 <h5>Elsies River High School</b></h5>
                 <h6>Completed 2014</h6>
                 <p>Matric</p>
                 <hr>
-              
+                <h2 id="contact">Contact Me</h2>
+                <h5>Elsies River High School</b></h5>
+                <h6>Completed 2014</h6>
+                <p>Matric</p>
+                <hr>
           
        
       
